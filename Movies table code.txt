@@ -1,0 +1,6 @@
+create table Movies(moviename varchar(50),actor varchar(50),actress varchar(50),director varchar(50),year_of_release int);
+insert into movies values('Oh_My_Kadavule','Ashok','Ritika','Ashwath',2020);
+insert into movies values('Maara','Maddy','Shraddha','Dhilip',2021);
+insert into movies values('Soorarai_Pottru','Surya','Aparna','Sudha_Kongara',2020);
+insert into movies values('Velaikkaran','Sivakarthikeyan','Nayanthara','',2017);
+select*from movies;
